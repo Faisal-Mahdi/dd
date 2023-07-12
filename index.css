@@ -76,10 +76,8 @@
     display: flex;
     color: #272727;
     text-decoration-line: underline;
-    align-items: center;
-    justify-content: center;
-
-    
+    text-align: center;
+    justify-content: center;   
 }
 
 .lone{
