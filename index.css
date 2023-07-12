@@ -5,6 +5,15 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.span{
+    color: #E55473;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
 /*header styles*/
 .header-div{
     display: flex;
@@ -101,5 +110,35 @@
     padding-top: 55px;
     padding-right: 65px;
     padding-left: 65px;
+}
+/*deal section*/
+.deals{
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    align-items: center;
+    padding: 100px;  
+}
+.deals-text{
+    text-align: center;
+}
+.deals-heading{
+    color: #272727;
+    font-size: 40px;
+    line-height: normal;
+}
+.deals-pera{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 24px;
+line-height: 30px; 
+}
+.deals-button{
+    padding: 18px 33px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 15px;
+    border: none;
+    margin-top: 20px;
 }
 
