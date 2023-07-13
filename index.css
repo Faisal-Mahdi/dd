@@ -15,7 +15,18 @@ font-style: normal;
 font-weight: 800;
 line-height: normal;
 }
-
+.header-btn:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+.deals-button:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+.search-button:hover{
+    background-color: orange;
+    cursor: pointer;
+}
 /*header styles*/
 .header-div{
     display: flex;
@@ -219,4 +230,41 @@ margin-bottom: 20px;
     font-size: 15px;
     border: none;
     margin-left: 20px;
+}
+/*video styles*/
+.video{
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 34px;
+}
+.video-heading{
+    margin-bottom: 15px;
+    color: chocolate;
+}
+/*footer styles*/
+.fotter{
+    background: #111010;
+    margin-top: 80px;
+}
+.footerheading{
+    font-size: 48px;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+    color: #FFF;
+    padding-top: 128px;
+    }
+    .footerpera{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    margin-top: 24px
+    ;
+    }
+    .footerperato{
+        color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    margin-top: 24px;
+    padding: 128px;
 }
